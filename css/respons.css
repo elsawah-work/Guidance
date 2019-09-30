@@ -187,9 +187,10 @@ Author:	Ukieweb
         margin: 0 auto;
     }
     .home-header .title{
-        margin-top: 0px;
-        font-size: 36px;
-        line-height: 40px;
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: -13px;
     }
     .home-header .sub-title {
         line-height: 28px;
