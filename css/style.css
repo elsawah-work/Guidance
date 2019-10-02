@@ -1198,7 +1198,7 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
 }
 #outer-wrapper #inner-wrapper #table-wrapper .container {
   height: 100%;
-  display: table;
+  display: block;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-header {
   position: relative;
@@ -1314,12 +1314,13 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
   width: 500px;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content #content-wrapper {
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   -moz-perspective: 1000px;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   z-index: 1;
+    margin-top: 25%;
 }
 #outer-wrapper #inner-wrapper #table-wrapper #row-content #content-wrapper.bottom {
   vertical-align: bottom;
@@ -1556,7 +1557,7 @@ body.has-active-slider #outer-wrapper #inner-wrapper {
   width: 4px;
 }
 .side-panel .wrapper {
-  padding-right: 25px;
+  padding-right: 30px;
     padding-left: 5px;
 }
 
@@ -2199,7 +2200,7 @@ body::before {
   }
 
   #outer-wrapper #inner-wrapper #table-wrapper #row-footer {
-    bottom: 0px;
+    bottom: 75px;
   }
 
   #outer-wrapper #inner-wrapper #table-wrapper #row-content #navigation-wrapper .navigation nav a span {
